@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/sharp_category_black_18dp"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/sharp_local_offer_black_18dp"
+            android:title="Familias" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/outline_widgets_black_18dp"
+            android:title="Lotes" />
+    </group>
+
+    <item android:title="Personal">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/sharp_account_circle_black_18dp"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/nav_cerrarsesion"
+                android:icon="@drawable/sharp_exit_to_app_black_18dp"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+        </menu>
+
